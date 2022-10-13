@@ -3,7 +3,6 @@ body {
     font-size: 40px;
     margin: 0;
     overflow: hidden;
-
 }
 .navbar {
 
@@ -12,8 +11,6 @@ body {
     align-items: center;
     background:  #242124;
     height: 7vh;
-    pointer-events: none 
-    pos
 }
 
 a {
@@ -35,29 +32,17 @@ ul {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    font-size: 100px;
+    font-size: 80px;
+    font-weight: bold;
     text-shadow: 2px 2px 8px #242124;
     color: white;
-
-    
 }
 
 
-.video-container {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-  }
   
-  video {
-    position: absolute;
+video {
+    position: fixed;
+    bottom: 0;
     z-index: -1;
-    opacity: 0.78;
-    widows: 100%;
-    width: 100% !important;
-    height: auto !important;
-    margin: 0 auto;
-    filter: blur(8px);
+    filter: blur(4px);
 }
