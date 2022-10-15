@@ -1,6 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
     overflow: hidden;
 }
@@ -32,7 +32,7 @@ ul {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     text-shadow: 2px 2px 8px #242124;
     color: white;
